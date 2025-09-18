@@ -1,11 +1,11 @@
-let numero = 0;
-let n = prompt('Insira um número');
+let n1 = 0;
+let n2 = prompt('Insira um número');
 let total = 0;
 
-while (numero <= n) {
-  console.log(numero);
-  numero = numero + 1;
-  total = total + numero;
+while (n1 <= n2) {
+  console.log(n1);
+  n1 = n1 + 1;
+  total = total + n1;
   console.log(total)
   
 }
