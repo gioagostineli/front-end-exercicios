@@ -5,10 +5,10 @@
 // "Não é um número" se não for um valor numérico.
 
 
-function valor(numero) {
-	if(typeof numero !== 'number' ){
-		console.log('Não é um numero')
-		}
+function verificaNumero(numero) {
+	if (isNaN(numero)) {
+    	console.log("Não é um número");
+}
 	else if(numero > 0)
 		{
 		console.log('Numero positivo');
@@ -21,8 +21,7 @@ function valor(numero) {
 		console.log('Zero');
 	}
 }
-
-console.log(valor(1));
+verificaNumero('abc')
 
 
 
